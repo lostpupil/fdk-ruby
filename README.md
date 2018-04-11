@@ -87,3 +87,11 @@ Run
 ```sh
 ruby loop.rb
 ```
+
+## Development
+
+Run 
+
+```sh
+fn run
+```
