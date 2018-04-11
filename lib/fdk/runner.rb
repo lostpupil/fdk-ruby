@@ -30,6 +30,7 @@ module FDK
         output_stream.flush
       end
 
+
       input_stream.each_line { |line| parser.parse_chunk(line) }
 
     elsif format == 'json'
